@@ -9,7 +9,7 @@ st.setup(
   download_url = "https://github.com/derek-ye/pip3-class/tarball/0.0.0",
   author = "derek-ye",
   license = "MIT",
-  # namespace_packges 
+  # namespace_packges
   packages = st.find_packages(exclude=["tests"]),
   install_requires = [
     # "package-name>=3.0.0"

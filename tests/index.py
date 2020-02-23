@@ -1,7 +1,5 @@
-from dummy.util import sumNum
-from dummy.dummy import Dummy
+import dummy
 
-
-print(sumNum([1, 2, 3, 4]))
-d = Dummy()
+print(dummy.sumNum([1, 2, 3, 4]))
+d = dummy.Dummy()
 d.printSomething("asd")
