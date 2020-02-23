@@ -8,4 +8,4 @@ class Dummy:
     :param arg: Dummy object
     :type arg: string
     """      
-    print(arg if arg else None)
+    print("test")

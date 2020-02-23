@@ -1,7 +1,7 @@
-import dummy;
-# import dummy.submodule;
-# from dummy.submodule import ...
+from dummy.util import sumNum
+from dummy.dummy import Dummy
 
-dummy.sumNum([1, 2, 3, 4])
-instance = dummy.Dummy()
-instance.printSomething()
+
+print(sumNum([1, 2, 3, 4]))
+d = Dummy()
+d.printSomething("asd")
