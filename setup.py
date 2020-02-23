@@ -2,7 +2,7 @@ import setuptools as st
 
 st.setup(
   version = "0.0.0",
-  name = "dummy-test",
+  name = "dummy-test-derek",
   description = "A dummy module to test",
   keywords = "dummy test",
   url = "https://github.com/derek-ye/pip3-class", # github repo url
